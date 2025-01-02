@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Dice - Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+        }
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Dice Support</h1>
+
+        <div class="section">
+            <h2>How to Use</h2>
+            <ul>
+                <li><strong>Roll Dice:</strong> Tap anywhere on the screen or shake your device</li>
+                <li><strong>Add Dice:</strong> Tap the "+" button (maximum 5 dice)</li>
+                <li><strong>Remove Dice:</strong> Tap the "-" button (minimum 1 die)</li>
+                <li><strong>Lock Dice:</strong> Tap on any die to lock it in place (it will become semi-transparent)</li>
+                <li><strong>Unlock Dice:</strong> Tap on a locked die to unlock it</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Troubleshooting</h2>
+            <ul>
+                <li><strong>Shake to Roll Not Working:</strong> 
+                    <ul>
+                        <li>Ensure motion sensors are enabled in your device settings</li>
+                        <li>Check if your device supports motion detection</li>
+                    </ul>
+                </li>
+                <li><strong>Dice Not Visible:</strong>
+                    <ul>
+                        <li>Restart the app</li>
+                        <li>Ensure you're running the latest version</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>System Requirements</h2>
+            <ul>
+                <li>iOS 15.0 or later</li>
+                <li>Compatible with iPhone and iPad</li>
+                <li>Device must support motion detection for shake feature</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Contact Support</h2>
+            <p>If you need additional help or want to report an issue, please contact us at:</p>
+            <p>Email: waylongmusk@github.com</p>
+        </div>
+    </div>
+</body>
+</html>
